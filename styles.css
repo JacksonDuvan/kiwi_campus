@@ -1,0 +1,425 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?jdu523');
+  src:  url('fonts/icomoon.eot?jdu523#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?jdu523') format('truetype'),
+    url('fonts/icomoon.woff?jdu523') format('woff'),
+    url('fonts/icomoon.svg?jdu523#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu1:before {
+  content: "\e900";
+}
+
+
+
+body{
+    margin: 0;
+}
+.color{
+	background: #000000;
+}
+.kiwilogo{
+	margin: 5px;
+    position: absolute;
+    top: 36px;
+    left: 50px;
+    visibility: visible;
+}
+ol, ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.menu{
+    height: inherit;
+} 
+.header ol{
+    display: flex;
+    height: inherit;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    flex-wrap: wrap;
+}
+
+.header ol li{
+    height: inherit;
+}
+.header a{
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0 15px;
+    font-family: 'Source Sans Pro',Helvetica,Arial,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13.18px;
+    flex-wrap: wrap;
+}
+
+.div_vision{
+	background-color: rgba(255,255,255,0.0);
+    width: auto;
+    height: auto;
+    pointer-events: auto;
+    position: relative;
+    transform: rotate(0);
+    font-family: 'SourceSansPro-SemiBold',Helvetica,Arial,serif;
+    font-size: 32.0px;
+    color: rgba(0,0,0,1.0);
+    text-align: center;
+    margin: 40px;
+    margin-bottom: 50px;
+}
+.div_vision1{
+    background-color: rgba(255,255,255,0.0);
+    width: auto;
+    height: auto;
+    pointer-events: auto;
+    position: relative;
+    transform: rotate(0);
+    font-family: 'SourceSansPro-SemiBold',Helvetica,Arial,serif;
+    font-size: 32.0px;
+    color: rgba(0,0,0,1.0);
+    text-align: center;
+    margin: 40px;
+    margin-bottom: 50px;
+}
+.header video{
+    width: 100%;
+    height: 550px;
+    object-fit: fill;
+}
+
+.kiwi-video{
+    width: 100%;
+    height: auto;
+}
+.section_1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 40px;
+    z-index: 1;
+    flex-wrap: wrap;
+}
+.smartphone{
+    margin:1%;
+    width: 30%;
+    flex-shrink: 0;
+    border: 2px solid #F4F1EB;
+    border-radius: 10px;
+    background-color: white;
+}
+.smartphone .bp2-smartphone{
+    padding-top: 30px;
+    margin:auto;
+    display: block;
+}
+h3{
+    text-align: center;
+    font-family: 'SourceSansPro-SemiBold',Helvetica,Arial,serif;
+    font-size: 18.0px;
+    color: rgba(12,129,246,1.0)
+}
+p{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Source Sans Pro',Helvetica,Arial,serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13.81px;
+    color: rgba(148,148,148,1.0);
+}
+.smartphone .div_smartphone a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 30px;
+    color: rgba(12,129,246,1.0);
+}
+.route{
+    margin:1%;
+    width: 30%;
+    flex-shrink: 0;
+    border: 2px solid #F4F1EB;
+    border-radius: 10px;
+    background-color: white;
+}
+.route .bp2-route{
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+}
+.stopwatch{
+    margin:1%;
+    width: 30%;
+    flex-shrink: 0;
+    border: 2px solid #F4F1EB;
+    border-radius: 10px;
+    background-color: white; 
+}
+.stopwatch .bp2-stopwatch{
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+}
+h1{
+    margin: 0 auto;
+    font-family: 'Source Sans Pro',Helvetica,Arial,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.vision{
+    margin-bottom: 70px;
+}
+.p_vision{
+    font-family: 'Source Sans Pro',Helvetica,Arial,serif;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 17.6px;
+    color: rgba(0,0,0,1.0);
+    line-height: 25pt;
+}
+.video{
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+.div_img{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bp2-bitmap{
+    margin-right: 70px;
+
+}
+.section_info video{
+    width: 1473px;
+    height: 600px;
+    object-fit: fill;
+}
+.app{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+    margin-bottom: 0;
+}
+span {
+    font-family: 'Source Sans Pro',Helvetica,Arial,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26.08px;
+    color: rgba(51,51,51,1.0);
+    text-align: center;
+}
+.app a{
+    text-decoration: none;
+}
+.bp2-googleplay{
+    margin: 20px;
+}
+.bp2-appstore{
+    margin: 20px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.burger-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0, .8);
+    display: none;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    z-index: 5;
+    right: 5px;
+    top: 5px;
+    color: white;
+}
+
+@media screen and (max-width: 1024px){
+    .section_info video{
+        width: 100%;
+        height: auto;
+        margin-top: -30px;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .span{
+        font-size: 1.4em;
+    }
+    .app-movil{
+        text-align: center;
+        position: relative;
+        left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 561px){
+    .header ol{
+        display: block;
+    }
+    
+    .burger-button{
+        display: block;
+    }
+    .header a{
+        font-size: 1.5em;
+        text-decoration: underline;
+        margin-bottom: .5em;
+    }
+    .menu{
+        position: fixed;
+        background: rgba(5, 111, 255, .9);
+        z-index: 4;
+        top: 0;
+        right: -100vw;
+        width: 100vw;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+    }
+    .menu.is-active{
+        right: 0;
+    }
+@media screen and (max-width: 480px){
+    .smartphone{
+        width: auto;
+        flex-shrink: initial;
+        margin-right: 5%;
+        margin-left: 5%;
+     }
+     .route{
+        width: auto;
+        flex-shrink: initial;
+        margin-right: 5%;
+        margin-left: 5%;
+     }
+     .stopwatch{
+        width: auto;
+        flex-shrink: initial;
+        margin-right: 5%;
+        margin-left: 5%;
+     }
+
+     .header video{
+        object-fit: cover;
+     }
+    .container{
+        display: block;
+        text-align: center;
+    }
+    p{
+        padding: 5px;
+    }
+    .video{
+        width: 100%;
+        height: auto;
+    }
+    .p_vision{
+        font-size: 1em;
+    }
+    .bp2-bitmap{
+        margin-right: 10px;
+        margin-left: 40px;
+        margin-bottom: 20px
+    } 
+    .div_vision{
+        margin-bottom: 20px;
+        margin-top: -30px;
+    }
+    .div_vision1{
+        margin-bottom: 50px;
+        margin-top: -30px;
+    }
+    .app-movil{
+        position: relative;
+        left: 0px;
+    }
+    .span{
+        font-size: 1.3em;
+    }
+    
+    .bp2-bitmap8{
+        margin-bottom: 1em;
+        margin-top: -30px;
+    }
+
+    .div_kiwilogo{
+        position: relative;
+        left: -20px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    /*.header ol{
+        position: absolute;
+        right: 30px;
+
+     }*/
+    .bp2-bitmap{
+        margin-right: 60px;
+        margin-left: 60px;
+        margin-bottom: 20px
+    } 
+     .p_vision{
+        font-size: .9em;
+    }
+    .span{
+        font-size: 1.2em;
+    }
+       
+    
+}
