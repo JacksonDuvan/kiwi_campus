@@ -15,7 +15,7 @@
       <img class="kiwilogo" src="https://anima-uploads.s3.amazonaws.com/590a31665b9593000de5d5a4/5ade592bba6a36000c251c42/5ade592c5c36ce000b7b98bf/img/desktopkiwi logo.png" anima-src="https://anima-uploads.s3.amazonaws.com/590a31665b9593000de5d5a4/5ade592bba6a36000c251c42/5ade592c5c36ce000b7b98bf/img/desktopkiwi logo.png">
     </div>
     <div class="div_video">
-      <video class="kiwi-video" src="https://s3.amazonaws.com/pide-kiwi/kiwibotdemo.mp4" width="1280" height="720" anima-src="https://s3.amazonaws.com/pide-kiwi/kiwibotdemo.mp4" loop="" autoplay="autoplay" playsinline="" muted="" ></video>
+      <video class="kiwi-video" id="video1"  src="https://s3.amazonaws.com/pide-kiwi/kiwibotdemo.mp4" width="1280" height="720" anima-src="https://s3.amazonaws.com/pide-kiwi/kiwibotdemo.mp4" loop="" autoplay="autoplay" playsinline="" muted="" ></video>
     </div>
   	<nav class="menu">
   		<ol>
@@ -90,7 +90,7 @@
    </div>
    <p class="p_vision">We believe in starting small, moving faster, and thinking bigger.<br>We believe in delivering good flavors, good experiences, good times.<br>We are building the autonomous delivery infrastructure of tomorrow.</p>
 
-   <video class="video" src="https://s3.amazonaws.com/pide-kiwi/kiwisvision.mp4" anima-src="https://s3.amazonaws.com/pide-kiwi/kiwisvision.mp4" controls=""></video>
+   <video class="video" id="video2" src="https://s3.amazonaws.com/pide-kiwi/kiwisvision.mp4" anima-src="https://s3.amazonaws.com/pide-kiwi/kiwisvision.mp4" controls=""></video>
  </section>
  <section>
    <div>
@@ -118,7 +118,7 @@
    </div>
  </section>
  <section class="section_info">
-    <video src="https://s3.amazonaws.com/pide-kiwi/howkiwiworks.mp4" anima-src="https://s3.amazonaws.com/pide-kiwi/howkiwiworks.mp4" loop="" autoplay="autoplay" playsinline="" muted=""></video>
+    <video id="video3" src="https://s3.amazonaws.com/pide-kiwi/howkiwiworks.mp4" anima-src="https://s3.amazonaws.com/pide-kiwi/howkiwiworks.mp4" loop="" autoplay="autoplay" playsinline="" muted=""></video>
  </section>
 <section class="app">
   <div class="container">
@@ -137,20 +137,6 @@
   </div> 
   </div>
  </section>
- <script>
-   const menu = document.querySelector('.menu');
-   const burgerButtun = document.querySelector('#burger-menu')
-
-   burgerButtun.addEventListener('click', hideShow);
-
-   function hideShow(){
-      if (menu.classList.contains('is-active')) {
-        menu.classList.remove('is-active');
-      } else{
-        menu.classList.add('is-active');
-      }
-   }
-
- </script>
+ <script src="./index.js"></script>
 </body>
 </html>
