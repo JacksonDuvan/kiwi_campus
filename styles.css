@@ -283,6 +283,16 @@ span {
     color: white;
 }
 
+.footer{
+    background-color: #000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 @media screen and (max-width: 1024px){
     .section_info video{
         width: 100%;
